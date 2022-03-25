@@ -1,3 +1,13 @@
+# React App Details
+* This is a fully function app . In this I used the React-Router, Redux , React-Icons and For backend I used the Firebase google cloud.
+* This app is fully functional with Registration ,Login page authentication done by firebase and All the data are fetched from the firebase.
+* In this project we can add and remove the products from carts.
+* We can also check the order list which we can made previously.
+* In this project we also have an admin page from with we can add or update the products details in our products list.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
