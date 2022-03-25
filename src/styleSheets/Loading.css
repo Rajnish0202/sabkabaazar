@@ -1,0 +1,11 @@
+.loading {
+  padding-top: 80px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading h2 {
+  font-size: 3rem;
+}

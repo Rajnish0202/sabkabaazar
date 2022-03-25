@@ -1,0 +1,109 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 299;
+}
+
+.orderContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(80%, -1%);
+  margin-top: 80px;
+  width: 30rem;
+  height: auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #333;
+  z-index: 199;
+}
+
+.orderContainer .heading {
+  border-bottom: 2px solid #eee;
+  height: 4rem;
+  width: 90%;
+  text-align: center;
+}
+
+.orderContainer .heading p {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-transform: none;
+}
+
+.orderContainer .orderContent {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #eee;
+  padding: 0 2rem;
+  margin: 1rem 0;
+}
+
+.orderContainer .orderContent input {
+  margin: 0.5rem 0;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #333;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #eee;
+  padding: 0.5rem 1rem;
+}
+
+.orderContainer .orderContent input::placeholder {
+  text-transform: capitalize;
+  padding: 1rem 0;
+}
+
+.orderContainer button {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  background: #f15025;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 786px) {
+  .orderContainer {
+    transform: translate(25%, 0%);
+    width: auto;
+  }
+
+  .orderContainer .orderContent {
+    width: auto;
+  }
+
+  .orderContainer .heading p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .orderContainer {
+    transform: translateX(6%);
+    width: 90%;
+  }
+
+  .orderContainer .orderContent {
+    width: auto;
+  }
+}
