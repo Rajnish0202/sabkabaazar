@@ -1,5 +1,5 @@
 # Project Live Link
-https://sabkabaazar.netlify.app/
+https://sabkabaazar.netlify.app
 
 # React App Details
 * This is a fully function app . In this I used the React-Router, Redux , React-Icons and For backend I used the Firebase google cloud.
