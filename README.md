@@ -1,3 +1,6 @@
+# Project Live Link
+https://sabkabaazar.netlify.app/
+
 # React App Details
 * This is a fully function app . In this I used the React-Router, Redux , React-Icons and For backend I used the Firebase google cloud.
 * This app is fully functional with Registration ,Login page authentication done by firebase and All the data are fetched from the firebase.
